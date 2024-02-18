@@ -38,6 +38,7 @@ class GuessActivity : AppCompatActivity() {
                 resultTv.text = "Congratulations!! You have guessed the number!"
                 Toast.makeText(this, "Congratulations!!", Toast.LENGTH_SHORT).show()
             }
+            inputEt.setText("")
         }
 
     }
